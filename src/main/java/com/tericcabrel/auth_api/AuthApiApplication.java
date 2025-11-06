@@ -2,6 +2,8 @@ package com.tericcabrel.auth_api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
 public class AuthApiApplication extends SpringBootServletInitializer {
@@ -15,4 +17,3 @@ public class AuthApiApplication extends SpringBootServletInitializer {
         SpringApplication.run(AuthApiApplication.class, args);
     }
 }
-
